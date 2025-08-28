@@ -1,0 +1,4 @@
+- run `anvil`
+- run `forge script script/Counter.s.sol:CounterScript --rpc-url http://localhost:8545 --broadcast` for failure
+- run `forge script script/Counter.s.sol:CounterScript --rpc-url http://localhost:8545 --broadcast --skip-simulate` works
+- comment second `Counter(payable(deployer)).noop();` in script works
