@@ -1,4 +1,5 @@
 - run `anvil`
+- run `export PRIVATE_KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80`
 - run `forge script script/Counter.s.sol:CounterScript --rpc-url http://localhost:8545 --broadcast` for failure
 - run `forge script script/Counter.s.sol:CounterScript --rpc-url http://localhost:8545 --broadcast --skip-simulate` works
 - comment second `Counter(payable(deployer)).noop();` in script works
